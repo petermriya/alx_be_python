@@ -19,6 +19,8 @@ match operation:
         else:
             d = num1/num2
             print (f"The result is {d}")
+    case _:
+        print ("You have not entered an operation")
 
 
 
